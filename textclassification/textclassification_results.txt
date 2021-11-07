@@ -1,0 +1,10 @@
+LSTM+随机初始化word embedding：
+the best result is 0.818200, the min eval loss is 0.456044：batch_size 128，BN 1e-4
+the best result is 0.821843, the min eval loss is 0.523131：batch_size 64，BN 1e-4
+the best result is 0.818798, the min eval loss is 0.462872：batch_size 64，BN 1e-5
+the best result is 0.835670, the min eval loss is 0.408503：batch_size 64，without BN
+the best result is 0.862124, the min eval loss is 0.340174：batch_size 64，without BN 词表min_freq = 10，max_length=800
+
+LSTM+GLove word embedding：
+
+BERT：
